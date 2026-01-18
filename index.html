@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Andrea Barci — Portfolio</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./index.html">Andrea Barci</a>
+    <nav class="nav">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="mailto:andreabarci12@gmail.com">Email</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="work" class="section">
+      <h1 class="h1">Selected Work</h1>
+
+      <div class="grid">
+        <a class="card" href="./project-1.html">
+          <img src="./images/cover-1.jpg" alt="Progetto 1" />
+          <div class="card-meta">
+            <div class="card-title">Progetto 1</div>
+            <div class="card-sub">Branding · 2025</div>
+          </div>
+        </a>
+
+        <a class="card" href="./project-2.html">
+          <img src="./images/cover-2.jpg" alt="Progetto 2" />
+          <div class="card-meta">
+            <div class="card-title">Progetto 2</div>
+            <div class="card-sub">Web · 2024</div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+<a href="./project-1.html">Apri Progetto 1</a>
+
+    <section id="about" class="section">
+      <h2 class="h2">About</h2>
+      <p class="p">
+        Breve bio: cosa fai, dove sei, focus. Link a Instagram/Behance/LinkedIn se ti va.
+      </p>
+    </section>
+
+    <footer class="footer">
+      <span>© <span id="y"></span> Andrea Barci</span>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
